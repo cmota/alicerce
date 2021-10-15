@@ -1,0 +1,7 @@
+{ 
+    "project": "alicerce",
+    "author": "@cafonsomota",
+    "package_name": "{{cookiecutter.package_name}}",
+    "version": "0.1",
+    "description": "alicerce brings KMP and Compose together so you can share everything between your Android and Desktop apps"
+}
