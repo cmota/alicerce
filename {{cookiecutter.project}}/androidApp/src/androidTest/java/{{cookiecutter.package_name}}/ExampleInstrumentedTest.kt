@@ -1,4 +1,4 @@
-package {{cookiecutter.package_name}}
+package {{ cookiecutter.repo_name }}
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the androidApp under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("{{cookiecutter.package_name}}", appContext.packageName)
+        assertEquals("{{ cookiecutter.repo_name }}", appContext.packageName)
     }
 }

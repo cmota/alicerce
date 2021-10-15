@@ -1,4 +1,4 @@
-package {{cookiecutter.package_name}}.ui.theme
+package {{ cookiecutter.repo_name }}.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.Shapes

@@ -8,7 +8,7 @@ android {
     compileSdk = 31
 
     defaultConfig {
-        applicationId = "{{cookiecutter.package_name}}"
+        applicationId = "{{ cookiecutter.repo_name }}"
         minSdk = 21
         targetSdk = 31
         versionCode = 1

@@ -1,4 +1,4 @@
-package {{cookiecutter.package_name}}.ui.theme
+package {{ cookiecutter.repo_name }}.ui.theme
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.graphics.painter.Painter

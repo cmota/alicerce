@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest package="{{cookiecutter.package_name}}.logic"/>
+<manifest package="{{ cookiecutter.repo_name }}.logic"/>

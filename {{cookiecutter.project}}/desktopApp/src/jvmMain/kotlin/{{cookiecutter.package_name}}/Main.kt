@@ -1,4 +1,4 @@
-package {{cookiecutter.package_name}}
+package {{ cookiecutter.repo_name }}
 
 import androidx.compose.desktop.DesktopTheme
 import androidx.compose.foundation.layout.fillMaxSize
@@ -7,8 +7,8 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
-import {{cookiecutter.package_name}}.ui.main.MainScreen
-import {{cookiecutter.package_name}}.ui.theme.AlicerceTheme
+import {{ cookiecutter.repo_name }}.ui.main.MainScreen
+import {{ cookiecutter.repo_name }}.ui.theme.AlicerceTheme
 import moe.tlaster.precompose.PreComposeWindow
 
 fun main() {

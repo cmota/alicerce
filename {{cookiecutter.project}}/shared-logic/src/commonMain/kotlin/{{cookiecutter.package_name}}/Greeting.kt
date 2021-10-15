@@ -1,6 +1,6 @@
-package {{cookiecutter.package_name}}
+package {{ cookiecutter.repo_name }}
 
-import {{cookiecutter.package_name}}.platform.Platform
+import {{ cookiecutter.repo_name }}.platform.Platform
 
 class Greeting {
     fun greeting(): String {

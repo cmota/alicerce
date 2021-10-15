@@ -1,4 +1,4 @@
-package {{cookiecutter.package_name}}.ui.about
+package {{ cookiecutter.repo_name }}.ui.about
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -11,7 +11,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import {{cookiecutter.package_name}}.ui.theme.Fonts
+import {{ cookiecutter.repo_name }}.ui.theme.Fonts
 
 @Composable
 fun AboutContent() {

@@ -1,4 +1,4 @@
-package {{cookiecutter.package_name}}.ui.platform
+package {{ cookiecutter.repo_name }}.ui.platform
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.ScrollState

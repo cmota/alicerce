@@ -27,7 +27,7 @@ kotlin {
 
 compose.desktop {
     application {
-        mainClass = "{{cookiecutter.package_name}}.MainKt"
+        mainClass = "{{ cookiecutter.repo_name }}.MainKt"
 
         nativeDistributions {
             targetFormats(TargetFormat.Dmg, TargetFormat.Msi, TargetFormat.Deb)

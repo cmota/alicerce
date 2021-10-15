@@ -1,4 +1,4 @@
-package {{cookiecutter.package_name}}.ui.platform
+package {{ cookiecutter.repo_name }}.ui.platform
 
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.platform.LocalContext

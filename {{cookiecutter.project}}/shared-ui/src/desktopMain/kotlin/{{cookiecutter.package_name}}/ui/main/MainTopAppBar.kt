@@ -1,4 +1,4 @@
-package {{cookiecutter.package_name}}.ui.main
+package {{ cookiecutter.repo_name }}.ui.main
 
 import androidx.compose.runtime.Composable
 
