@@ -20,7 +20,7 @@ You'll be prompted to define a set of variables for the project:
 Corresponds to your project name.
 
 * author [@cafonsomota]: 
-To the author of the project: you 🙂.
+The author of the project: you 🙂.
 
 * repo_name [com.cmota.alicerce]: 
 The package name of your project. Don't forget that you need to add at least a "." since it's mandatory by Android.
