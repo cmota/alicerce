@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Alicerce Compose</string>
+    <string name="app_name">{{ cookiecutter.project }}</string>
 
     <!-- Navigation -->
     <string name="navigation_home">Home</string>

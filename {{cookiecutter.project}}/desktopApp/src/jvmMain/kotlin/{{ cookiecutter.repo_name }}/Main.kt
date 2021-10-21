@@ -8,7 +8,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.application
 import androidx.compose.ui.window.rememberWindowState
 import {{ cookiecutter.repo_name }}.ui.main.MainScreen
-import {{ cookiecutter.repo_name }}.ui.theme.AlicerceTheme
+import {{ cookiecutter.repo_name }}.ui.theme.{{ cookiecutter.project }}Theme
 import moe.tlaster.precompose.PreComposeWindow
 
 fun main() {
@@ -19,12 +19,12 @@ fun main() {
         PreComposeWindow(
             onCloseRequest = ::exitApplication,
             state = windowState,
-            title = "Alicerce"
+            title = "{{ cookiecutter.project }}"
         ) {
             Surface(modifier = Modifier.fillMaxSize()) {
                 DesktopTheme {
 
-                    AlicerceTheme {
+                    {{ cookiecutter.project }}Theme {
                         MainScreen()
                     }
                 }

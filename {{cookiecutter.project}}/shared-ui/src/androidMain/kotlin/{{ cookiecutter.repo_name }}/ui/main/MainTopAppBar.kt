@@ -6,7 +6,7 @@ import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import {{ cookiecutter.repo_name }}.ui.components.AlicerceTopAppBar
+import {{ cookiecutter.repo_name }}.ui.components.{{ cookiecutter.project }}TopAppBar
 import {{ cookiecutter.repo_name }}.ui.theme.Fonts
 import {{ cookiecutter.repo_name }}.ui.theme.colorContent
 
@@ -14,10 +14,10 @@ import {{ cookiecutter.repo_name }}.ui.theme.colorContent
 @Composable
 fun MainTopAppBar() {
 
-    AlicerceTopAppBar(
+    {{ cookiecutter.project }}TopAppBar(
         title = {
             Text(
-                text = "Alicerce",
+                text = "{{ cookiecutter.project }}",
                 style = typography.h4,
                 fontFamily = Fonts.BigNoodleTitlingFont()
             )

@@ -4,7 +4,7 @@ import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.Composable
 
 @Composable
-fun AlicerceTheme(content: @Composable () -> Unit) {
+fun {{ cookiecutter.project }}Theme(content: @Composable () -> Unit) {
 
     MaterialTheme(
         typography = Typography,

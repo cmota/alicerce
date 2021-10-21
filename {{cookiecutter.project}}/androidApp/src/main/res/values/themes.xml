@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.Alicerce" parent="Theme.MaterialComponents.Light.NoActionBar">
+    <style name="Theme.{{ cookiecutter.project }}" parent="Theme.MaterialComponents.Light.NoActionBar">
         <item name="colorPrimary">@color/colorContent</item>
         <item name="colorAccent">@color/colorAccent</item>
         <item name="android:windowBackground">@color/colorContent</item>

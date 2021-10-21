@@ -19,7 +19,7 @@ private val AppBarHeight = 56.dp
  */
 
 @Composable
-fun AlicerceTopAppBar(
+fun {{ cookiecutter.project }}TopAppBar(
     title: @Composable () -> Unit,
     modifier: Modifier = Modifier,
     actions: @Composable RowScope.() -> Unit = {},
