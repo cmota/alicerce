@@ -98,24 +98,31 @@ Note: in order to use this template you need to also have Java installed on your
 alicerce is divided into the following modules:
 
 - **androidApp**
+
 Contains the AndroidManifest and your Android application activities.
 
 - **desktopApp**
+
 Contains your Desktop app `main` application.
 
 - **gradle**
+
 The Gradle wrapper use to compile the project
 
 - [**precompose**](https://github.com/Tlaster/PreCompose)
+
 A library that allows to use ViewModel, LiveData and Navigation components both on Android and Desktop applications
 
 - **shared-logic**
+
 The business logic of both applications. Network requests, local storage, etc. they should all be here.
 
 - **shared-ui**
+
 The access to **shared-logic** and all the **Composables** that are going to be used to design both apps.
 
 - [**swiperefresh**](https://github.com/Syer10/accompanist/tree/main/swiperefresh)
+
 A port of the accompanist [swiperefresh](https://github.com/google/accompanist/tree/main/swiperefresh) library that allows it to be use both on android and desktop.
 
 
