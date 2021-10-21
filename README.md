@@ -80,7 +80,7 @@ pip install --user cookiecutter
 
 #### Windows
 
-You need to have python installed. If you don't, go over to the official (website)[https://www.python.org/downloads/windows/], download and install the version that's compatible with your system.
+You need to have python installed. If you don't, go over to the official [website](https://www.python.org/downloads/windows/), download and install the version that's compatible with your system.
 
 When prompted, don't forget to select: "Add Python 3.7 to PATH", otherwise you'll need to do this manually.
 
