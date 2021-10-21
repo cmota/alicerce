@@ -16,19 +16,24 @@ cookiecutter .
 
 You'll be prompted to define a set of variables for the project:
 
-* project [alicerce]: 
+- project [alicerce]: 
+
 Corresponds to your project name.
 
-* author [@cafonsomota]: 
+- author [@cafonsomota]: 
+
 The author of the project: you 🙂.
 
-* repo_name [com.cmota.alicerce]: 
+- repo_name [com.cmota.alicerce]: 
+
 The package name of your project. Don't forget that you need to add at least a "." since it's mandatory by Android.
 
-* version [0.1]: 
+- version [0.1]: 
+
 The project version.
 
-* description [alicerce brings KMP and Compose together so you can share everything between your Android and Desktop apps]: 
+- description [alicerce brings KMP and Compose together so you can share everything between your Android and Desktop apps]: 
+
 A description of the project that you're going to build.
 
 
